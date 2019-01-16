@@ -1,0 +1,6 @@
+framework module Pods_ZHAuthManager {
+  umbrella header "Pods-ZHAuthManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

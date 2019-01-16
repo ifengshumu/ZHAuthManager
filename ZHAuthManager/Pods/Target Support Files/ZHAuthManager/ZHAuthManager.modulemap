@@ -1,0 +1,6 @@
+framework module ZHAuthManager {
+  umbrella header "ZHAuthManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

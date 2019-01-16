@@ -1,0 +1,16 @@
+PODS:
+  - ZHAuthManager (1.0.0)
+
+DEPENDENCIES:
+  - ZHAuthManager (from `../`)
+
+EXTERNAL SOURCES:
+  ZHAuthManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZHAuthManager: 19018d1ee40216629ef2cc52c2258b602600d0d1
+
+PODFILE CHECKSUM: 4218729a368d6f5a407576643609d48bd73d3b38
+
+COCOAPODS: 1.5.3

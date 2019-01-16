@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16206C1E216F440D00CC7712 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16206C1D216F440D00CC7712 /* AppDelegate.m */; };
+		16206C21216F440D00CC7712 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16206C20216F440D00CC7712 /* ViewController.m */; };
+		16206C24216F440D00CC7712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16206C22216F440D00CC7712 /* Main.storyboard */; };
+		16206C26216F440D00CC7712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16206C25216F440D00CC7712 /* Assets.xcassets */; };
+		16206C29216F440D00CC7712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16206C27216F440D00CC7712 /* LaunchScreen.storyboard */; };
+		16206C2C216F440D00CC7712 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16206C2B216F440D00CC7712 /* main.m */; };
+		16206C36216F440D00CC7712 /* ZHAuthManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16206C35216F440D00CC7712 /* ZHAuthManagerTests.m */; };
+		37246E7186F9C16DC860437B /* Pods_ZHAuthManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68670A2AD0DB097A181A5613 /* Pods_ZHAuthManager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16206C32216F440D00CC7712 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16206C11216F440C00CC7712 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16206C18216F440C00CC7712;
+			remoteInfo = ZHAuthManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16206C19216F440C00CC7712 /* ZHAuthManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHAuthManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16206C1C216F440C00CC7712 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16206C1D216F440D00CC7712 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16206C1F216F440D00CC7712 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16206C20216F440D00CC7712 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16206C23216F440D00CC7712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16206C25216F440D00CC7712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16206C28216F440D00CC7712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16206C2A216F440D00CC7712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16206C2B216F440D00CC7712 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16206C31216F440D00CC7712 /* ZHAuthManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHAuthManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16206C35216F440D00CC7712 /* ZHAuthManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHAuthManagerTests.m; sourceTree = "<group>"; };
+		16206C37216F440D00CC7712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68670A2AD0DB097A181A5613 /* Pods_ZHAuthManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHAuthManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		755D2C24B3727C6E118A6899 /* Pods-ZHAuthManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHAuthManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHAuthManager/Pods-ZHAuthManager.release.xcconfig"; sourceTree = "<group>"; };
+		A2B8D9B2D30CC71DA2A3609E /* Pods-ZHAuthManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHAuthManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHAuthManager/Pods-ZHAuthManager.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16206C16216F440C00CC7712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37246E7186F9C16DC860437B /* Pods_ZHAuthManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16206C2E216F440D00CC7712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16206C10216F440C00CC7712 = {
+			isa = PBXGroup;
+			children = (
+				16206C1B216F440C00CC7712 /* ZHAuthManager */,
+				16206C34216F440D00CC7712 /* ZHAuthManagerTests */,
+				16206C1A216F440C00CC7712 /* Products */,
+				188048D69C20F91E0E524749 /* Pods */,
+				4BE76F80458C7A19C236FBAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16206C1A216F440C00CC7712 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16206C19216F440C00CC7712 /* ZHAuthManager.app */,
+				16206C31216F440D00CC7712 /* ZHAuthManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16206C1B216F440C00CC7712 /* ZHAuthManager */ = {
+			isa = PBXGroup;
+			children = (
+				16206C1C216F440C00CC7712 /* AppDelegate.h */,
+				16206C1D216F440D00CC7712 /* AppDelegate.m */,
+				16206C1F216F440D00CC7712 /* ViewController.h */,
+				16206C20216F440D00CC7712 /* ViewController.m */,
+				16206C22216F440D00CC7712 /* Main.storyboard */,
+				16206C25216F440D00CC7712 /* Assets.xcassets */,
+				16206C27216F440D00CC7712 /* LaunchScreen.storyboard */,
+				16206C2A216F440D00CC7712 /* Info.plist */,
+				16206C2B216F440D00CC7712 /* main.m */,
+			);
+			path = ZHAuthManager;
+			sourceTree = "<group>";
+		};
+		16206C34216F440D00CC7712 /* ZHAuthManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				16206C35216F440D00CC7712 /* ZHAuthManagerTests.m */,
+				16206C37216F440D00CC7712 /* Info.plist */,
+			);
+			path = ZHAuthManagerTests;
+			sourceTree = "<group>";
+		};
+		188048D69C20F91E0E524749 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2B8D9B2D30CC71DA2A3609E /* Pods-ZHAuthManager.debug.xcconfig */,
+				755D2C24B3727C6E118A6899 /* Pods-ZHAuthManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4BE76F80458C7A19C236FBAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68670A2AD0DB097A181A5613 /* Pods_ZHAuthManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16206C18216F440C00CC7712 /* ZHAuthManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16206C3A216F440D00CC7712 /* Build configuration list for PBXNativeTarget "ZHAuthManager" */;
+			buildPhases = (
+				5D598CF7615DA6F6E3BD690D /* [CP] Check Pods Manifest.lock */,
+				16206C15216F440C00CC7712 /* Sources */,
+				16206C16216F440C00CC7712 /* Frameworks */,
+				16206C17216F440C00CC7712 /* Resources */,
+				8101ECE858669CDBF5BBCDD1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHAuthManager;
+			productName = ZHAuthManager;
+			productReference = 16206C19216F440C00CC7712 /* ZHAuthManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16206C30216F440D00CC7712 /* ZHAuthManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16206C3D216F440D00CC7712 /* Build configuration list for PBXNativeTarget "ZHAuthManagerTests" */;
+			buildPhases = (
+				16206C2D216F440D00CC7712 /* Sources */,
+				16206C2E216F440D00CC7712 /* Frameworks */,
+				16206C2F216F440D00CC7712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16206C33216F440D00CC7712 /* PBXTargetDependency */,
+			);
+			name = ZHAuthManagerTests;
+			productName = ZHAuthManagerTests;
+			productReference = 16206C31216F440D00CC7712 /* ZHAuthManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16206C11216F440C00CC7712 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = zachariahlee;
+				TargetAttributes = {
+					16206C18216F440C00CC7712 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					16206C30216F440D00CC7712 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 16206C18216F440C00CC7712;
+					};
+				};
+			};
+			buildConfigurationList = 16206C14216F440C00CC7712 /* Build configuration list for PBXProject "ZHAuthManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16206C10216F440C00CC7712;
+			productRefGroup = 16206C1A216F440C00CC7712 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16206C18216F440C00CC7712 /* ZHAuthManager */,
+				16206C30216F440D00CC7712 /* ZHAuthManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16206C17216F440C00CC7712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16206C29216F440D00CC7712 /* LaunchScreen.storyboard in Resources */,
+				16206C26216F440D00CC7712 /* Assets.xcassets in Resources */,
+				16206C24216F440D00CC7712 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16206C2F216F440D00CC7712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D598CF7615DA6F6E3BD690D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZHAuthManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8101ECE858669CDBF5BBCDD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZHAuthManager/Pods-ZHAuthManager-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ZHAuthManager/ZHAuthManager.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZHAuthManager.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHAuthManager/Pods-ZHAuthManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16206C15216F440C00CC7712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16206C21216F440D00CC7712 /* ViewController.m in Sources */,
+				16206C2C216F440D00CC7712 /* main.m in Sources */,
+				16206C1E216F440D00CC7712 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16206C2D216F440D00CC7712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16206C36216F440D00CC7712 /* ZHAuthManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16206C33216F440D00CC7712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16206C18216F440C00CC7712 /* ZHAuthManager */;
+			targetProxy = 16206C32216F440D00CC7712 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16206C22216F440D00CC7712 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16206C23216F440D00CC7712 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16206C27216F440D00CC7712 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16206C28216F440D00CC7712 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16206C38216F440D00CC7712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16206C39216F440D00CC7712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16206C3B216F440D00CC7712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2B8D9B2D30CC71DA2A3609E /* Pods-ZHAuthManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W95LSXPBS2;
+				INFOPLIST_FILE = ZHAuthManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..ZHAuthManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16206C3C216F440D00CC7712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 755D2C24B3727C6E118A6899 /* Pods-ZHAuthManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W95LSXPBS2;
+				INFOPLIST_FILE = ZHAuthManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..ZHAuthManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16206C3E216F440D00CC7712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W95LSXPBS2;
+				INFOPLIST_FILE = ZHAuthManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..ZHAuthManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHAuthManager.app/ZHAuthManager";
+			};
+			name = Debug;
+		};
+		16206C3F216F440D00CC7712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W95LSXPBS2;
+				INFOPLIST_FILE = ZHAuthManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..ZHAuthManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHAuthManager.app/ZHAuthManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16206C14216F440C00CC7712 /* Build configuration list for PBXProject "ZHAuthManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16206C38216F440D00CC7712 /* Debug */,
+				16206C39216F440D00CC7712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16206C3A216F440D00CC7712 /* Build configuration list for PBXNativeTarget "ZHAuthManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16206C3B216F440D00CC7712 /* Debug */,
+				16206C3C216F440D00CC7712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16206C3D216F440D00CC7712 /* Build configuration list for PBXNativeTarget "ZHAuthManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16206C3E216F440D00CC7712 /* Debug */,
+				16206C3F216F440D00CC7712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16206C11216F440C00CC7712 /* Project object */;
+}
